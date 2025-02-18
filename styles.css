@@ -30,12 +30,19 @@ header {
 }
 
 header h1 {
-    font-size: 2rem; /* Ukuran font lebih kecil untuk HP */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem; /* Sesuaikan ukuran */
+    color: #333; /* Warna teks */
+    text-transform: uppercase; /* Ubah ke huruf kapital */
+    letter-spacing: 2px; /* Jarak antar huruf */
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1rem; /* Ukuran font lebih kecil untuk HP */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; /* Sesuaikan ukuran */
+  color: #555; /* Warna teks */
+  line-height: 1.6; /* Tinggi baris */
 }
 
 /* Styling untuk navigasi */
